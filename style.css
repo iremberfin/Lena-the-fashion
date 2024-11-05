@@ -1,0 +1,102 @@
+/* Algemene stijlen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+img {
+    width: 100%;
+}
+
+/* Navigatiebalk */
+nav img {
+    padding: 0;
+    background-color: #e1b7d1;
+    margin: 0;
+    /* width: 100px; */
+    padding: 3px;
+
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* padding: 15px; */
+    color: black;
+    font-weight: bold;
+}
+
+/* Secties */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Meest geleende kleding */
+.meest-geleend img {
+    width: 150px;
+    margin: 10px;
+}
+
+.location img {
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    background-color: #e1b7d1;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+main{
+    flex-grow: 1;
+}
+image{
+    width: 50px;
+}
+
+footer{
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    background-color: #e1b7d1;
+}
+
+footer nav {
+    padding: 1em 2em;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    justify-content: space-between;
+    gap: 5em;
+    align-items: center;
+}
+
+footer nav ul a li img {
+    width: 1em;
+    height: 1em;
+}
+/* Productenlijst */
